@@ -1,0 +1,12 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "items": [
+        {
+            "id": "https://wellbehaved.thombruce.com/blog/hello-world",
+            "url": "https://wellbehaved.thombruce.com/blog/hello-world",
+            "title": "Hello, World!",
+            "image": "https://wellbehaved.thombruce.com/wellbehaved.jpg",
+            "date_modified": "2021-09-15T21:54:05.000Z"
+        }
+    ]
+}
