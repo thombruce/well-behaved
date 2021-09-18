@@ -2,6 +2,13 @@
     "version": "https://jsonfeed.org/version/1",
     "items": [
         {
+            "id": "https://wellbehaved.thombruce.com/blog/well-behaved-deployment",
+            "url": "https://wellbehaved.thombruce.com/blog/well-behaved-deployment",
+            "title": "Well Behaved Deployment",
+            "image": "https://wellbehaved.thombruce.com/wellbehaved.jpg",
+            "date_modified": "2021-09-16T11:46:11.000Z"
+        },
+        {
             "id": "https://wellbehaved.thombruce.com/blog/hello-world",
             "url": "https://wellbehaved.thombruce.com/blog/hello-world",
             "title": "Hello, World!",
