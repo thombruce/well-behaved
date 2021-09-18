@@ -2,6 +2,13 @@
     "version": "https://jsonfeed.org/version/1",
     "items": [
         {
+            "id": "https://wellbehaved.thombruce.com/blog/fizzbuzz",
+            "url": "https://wellbehaved.thombruce.com/blog/fizzbuzz",
+            "title": "FizzBuzz",
+            "image": "https://wellbehaved.thombruce.com/wellbehaved.jpg",
+            "date_modified": "2021-09-18T17:27:32.000Z"
+        },
+        {
             "id": "https://wellbehaved.thombruce.com/blog/nuxt-pages-content-components",
             "url": "https://wellbehaved.thombruce.com/blog/nuxt-pages-content-components",
             "title": "Nuxt Pages, Content and Components",
