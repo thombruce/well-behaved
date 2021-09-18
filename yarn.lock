@@ -1541,6 +1541,11 @@
     vue "^2.6.14"
     vue-meta "^2.4.0"
 
+"@thombruce/vue-timepiece@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@thombruce/vue-timepiece/-/vue-timepiece-0.1.4.tgz#676d5751fcf5a9825e414d13679b32403d07f781"
+  integrity sha512-VfYJ//InOxubl//xUbJb+jsr7K2Tb4Eg45LqQqPOFHOxmYMa49/7lUdUbOuonrVWpLOVztE2P1WL2VPMoTYbpA==
+
 "@types/anymatch@*":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@types/anymatch/-/anymatch-3.0.0.tgz#c95ff14401dbb2869913afac3935af4ad0d37f1a"
