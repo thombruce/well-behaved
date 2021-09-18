@@ -3,7 +3,7 @@ div
   TntContent(:article='article')
   .card.bordered
     .card-body
-      FizzBuzz(:terms="{ 3: 'Fizz', 5: 'Buzz', 13: 'Foo' }" :upTo='1000')
+      FizzBuzz(:terms="{ 3: 'Fizz', 5: 'Buzz', 13: 'Foo' }" :from='-15' :to='1000')
 </template>
 
 <script>

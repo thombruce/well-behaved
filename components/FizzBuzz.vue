@@ -15,19 +15,27 @@ export default {
         }
       }
     },
-    upTo: {
+
+    from: {
+      type: Number,
+      default: 1
+    },
+
+    to: {
       type: Number,
       default: 100
     }
   },
+
   computed: {
     fizzbuzz () {
       const terms = this.terms
-      const upTo = this.upTo
+      const from = this.from
+      const to = this.to
 
       let values = []
 
-      for (let i = 1; i <= upTo; i++) {
+      for (let i = from; i <= to; i++) {
         let phrase = ''
         for (const factor in terms) {
           if (i % factor === 0) { phrase += terms[factor] }

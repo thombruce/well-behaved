@@ -14,7 +14,9 @@ But that's all. This is just 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fi
 Actually, I'll do you one better. I've generalised the code so that it can go up to any number of my choice and accepts a `terms` parameter with integer-word combos with which it will construct phrases. Let's say we want the general FizzBuzz problem for positive integers up to 1000, plus for multiples of 13 we should also add 'Foo'. I just include my new component like so...
 
 ```html
-<fizz-buzz :terms="{ 3: 'Fizz', 5: 'Buzz', 13: 'Foo' }" :upTo='1000'></fizz-buzz>
+<fizz-buzz :terms="{ 3: 'Fizz', 5: 'Buzz', 13: 'Foo' }" :from='-15' :to='1000'></fizz-buzz>
 ```
 
 And the code is generalised enough to handle that. If you want to look for the first instance of 'FizzBuzzFoo', it happens at 195, the first common multiple of 3, 5 and 13.
+
+_EDIT: Actually, I've just also made the lower bound a variable; you can see above I call it as `:from='-15'`. So now the first instance of 'FizzBuzzFoo' is 0, because `0 modulo N` for any value of N is 0, and I'm starting from a negative value._
